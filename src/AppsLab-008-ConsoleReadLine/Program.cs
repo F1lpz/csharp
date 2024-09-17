@@ -54,7 +54,7 @@ Console.WriteLine("Meno: " + porovnaniemena);
 Console.WriteLine("Heslo: " + porovnaniehesla);*/
 
 
-Console.WriteLine("zadajte meno a heslo:");
+/*Console.WriteLine("zadajte meno a heslo:");
 
 var m = "filip";
 var h = "123";
@@ -80,7 +80,9 @@ if (zm == m)
 {
     Console.WriteLine("meno sa nezhoduje");
 }
-    
+    */
+
+
 
 
 
