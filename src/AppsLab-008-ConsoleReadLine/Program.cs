@@ -83,7 +83,15 @@ if (zm == m)
     */
 
 
-
+/*string fn = "jacob";
+string sn = "mega";
+Console.WriteLine(fn  +  sn); //"jacob mega"
+Console.ReadLine();       //""
+Console.WriteLine("");
+Console.ReadLine();
+Console.WriteLine("");
+Console.ReadLine();
+Console.WriteLine("");*/
 
 
 
