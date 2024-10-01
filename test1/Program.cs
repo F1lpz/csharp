@@ -27,10 +27,6 @@ namespace MyApp
                     break;
                 case "/":
                     Console.WriteLine(num1 / num2);
-                    if
-                        {
-                        operation = 0; break;
-                    }
                     break;
                 default:
                     Console.WriteLine("zly operator");
