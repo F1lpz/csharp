@@ -18,9 +18,15 @@ namespace MyApp
                 int counter = 0;
                 foreach (string name in listname)
                 {
-                Console.WriteLine(counter++ + name);
+                Console.WriteLine(name);
+                    break;
                 }
             }
         }
     }
 }
+
+
+
+
+
