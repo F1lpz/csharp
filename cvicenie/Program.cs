@@ -6,17 +6,42 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            spocitajsamohlasky();
+            
         }
 
 
-        public static void spocitajsamohlasky()
+        public int spocitajsamohlasky(string text)
         {
-            Console.WriteLine("napis text");
 
-            string napistext = Console.ReadLine();
-            Console.WriteLine(napistext.Length);
+
+            int pocet = 0;
+
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == 'a')
+                {
+
+                }
+
+
+
+                pocet++;
+            }
+
+
+            return pocet;
         }
     }
 }
+
+                    
+            
+
+          
+            
+        
+    
+
+
 
