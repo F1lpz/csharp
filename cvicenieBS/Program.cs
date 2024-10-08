@@ -13,7 +13,7 @@ namespace MyApp
         }
 
 
-        public static int spocitajsamohlasky(string text)
+        public int spocitajsamohlasky(string text)
         {
 
 
