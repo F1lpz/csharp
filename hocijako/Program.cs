@@ -16,7 +16,7 @@ namespace MyApp
 
             Console.WriteLine("guess the number");
 
-            while (0 < 5)
+            while (true)
             {
                 
                 string text = Console.ReadLine();
@@ -46,7 +46,10 @@ namespace MyApp
                         Console.WriteLine("its bigger duh");
                     }
 
-                    Console.WriteLine("attempts remaining:");
+                    Console.WriteLine("attempts remaining:" + attempts);
+                    break;
+
+                    
 
 
                     
