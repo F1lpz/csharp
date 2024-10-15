@@ -15,7 +15,7 @@ namespace MyApp
                 listname.Add("JOZO");
                 listname.Add("IGOR");
 
-                int counter = 0;
+                int counter = 69;
                 foreach (string name in listname)
                 {
                 Console.WriteLine(name);
