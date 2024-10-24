@@ -8,89 +8,33 @@ namespace mesto
     {
         static void Main(string[] args)
         {
-            List<string> mesto = new List<string>();
 
+            city city1 = new city("bratislava");
+            city city2 = new city("zilina");
 
-            bool isend = false;
-            while (!isend)
-            {
-                menu();
-                var answer = Console.ReadLine();
+            citizen citizen1 = new citizen("jozo", 20);
+            city1.addcitizen(citizen1);
+            city1.addcitizen(new citizen("matej", 25));
+            city1.addcitizen(new citizen("jakub", 16));
+            city1.addcitizen(new citizen("erika", 37));
+            city1.addcitizen(new citizen("laco", 45));
 
-                switch (answer)
-                {
-                    case "1":
-                        foreach (var item in mesto)
-                        {
-                            Console.WriteLine(item);
-                        }
-                        break;
+            city2.addcitizen(new citizen("marek", 36));
+            city2.addcitizen(new citizen("lucia", 65));
+            city2.addcitizen(new citizen("pavlina", 11));
+            city2.addcitizen(new citizen("erik", 23));
 
-
-                    case "2":
-                        Console.WriteLine("write name of civilian");
-                        var newitemname = Console.ReadLine();
-                        Console.WriteLine("add number of civilians");
-                        var newitemcount = Console.ReadLine();
-                        AddItem(mesto, newitemname, int.Parse(newitemcount));
-                        break;
-
-                }
-
-
-
-
-            }
-             static void AddItem(List<string> itemlist, string itemname, int itemcount)
-            {
-
-                string foundeditem = null;
-                foreach (var item in itemlist)
-                {
-                    if (item.Contains(item))
-                    {
-                        foundeditem = item;
-                    }
-                }
-
-                if (foundeditem == null)
-                {
-                    var newcreateditem = $"{itemname} || {itemcount}";
-                    itemlist.Add(newcreateditem);
-                    Console.WriteLine($"civilian {itemname.ToUpper()} was added");
-                }
-                else
-                {
-                    var splitteditem = foundeditem.Split("||");
-                    var foundeditemname = splitteditem[0];
-                    var foundeditemcount = int.Parse(splitteditem[1]);
-                    var newitemcount = foundeditemcount + itemcount;
-
-                    var indexofitems = foundeditem.IndexOf(foundeditem);
-                    itemlist[indexofitems] = $"{itemname}||{newitemcount}";
-                    Console.WriteLine($"predmet {itemname.ToUpper()} bol aktualizovany");
-                }
-            }
-
-
-
-
-                static void menu()
-                {
-                    Thread.Sleep(3000);
-                    Console.Clear();
-                    Console.WriteLine("choose action:");
-                    Console.WriteLine("1.show all civilians");
-                    Console.WriteLine("2.add civilians to city");
-                }
+            city1.writecitizens();
+            city2.writecitizens();
 
 
 
 
 
 
-            }
         }
     }
+}
+
 
 
