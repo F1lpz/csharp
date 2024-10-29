@@ -10,6 +10,8 @@ namespace mesto
     {
         public string name1  { get; set; }
         public List<citizen> citizens { get; set; }
+        public List<doctor> doctors = new List<doctor>();
+        public List<programator> programators = new List<programator>();
 
         public city(string name1)
         {
@@ -17,6 +19,18 @@ namespace mesto
             citizens = new List<citizen>();
         }
 
+
+        public void adddoctor(doctor doctor)
+        {
+            doctors.Add(doctor);
+        }
+
+
+
+        public void addprogramator(programator programator)
+        {
+            programators.Add(programator);
+        }
         public void addcitizen(citizen citizen)
         {
             citizens.Add(citizen);

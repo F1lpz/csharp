@@ -17,9 +17,14 @@ namespace mesto
             this.age = age;
         }
 
-        public void info()
+        public void nameinfo()
         {
-            Console.WriteLine("meno" + name + "vek" + age);
+            Console.WriteLine("meno:" + name);
+        }
+
+        public void vekinfo()
+        {
+            Console.WriteLine("vek:" + age);
         }
     }
 }

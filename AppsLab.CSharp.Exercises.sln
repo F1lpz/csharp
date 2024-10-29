@@ -111,9 +111,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cvicenie OOP", "cvicenie OO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cvicenie OPP hra", "cvicenie OPP hra\cvicenie OPP hra.csproj", "{1DA1B716-23AC-4341-9D82-D0BBE8FB21A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1", "ConsoleApp1\project1.csproj", "{81FF4BE4-6C1B-4258-A169-D6005BFC6D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project1", "ConsoleApp1\project1.csproj", "{81FF4BE4-6C1B-4258-A169-D6005BFC6D5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mesto", "mesto\mesto.csproj", "{3FFBA2C4-320A-40AD-AD7E-08D021E8BC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mesto", "mesto\mesto.csproj", "{3FFBA2C4-320A-40AD-AD7E-08D021E8BC9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
