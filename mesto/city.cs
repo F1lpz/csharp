@@ -9,9 +9,8 @@ namespace mesto
     public class city
     {
         public string name1  { get; set; }
-        public List<citizen> citizens { get; set; }
-        public List<doctor> doctors = new List<doctor>();
-        public List<programator> programators = new List<programator>();
+        public List<citizen> citizens = new List<citizen>();
+        
 
         public city(string name1)
         {
@@ -19,22 +18,11 @@ namespace mesto
             citizens = new List<citizen>();
         }
 
-
-        public void adddoctor(doctor doctor)
-        {
-            doctors.Add(doctor);
-        }
-
-
-
-        public void addprogramator(programator programator)
-        {
-            programators.Add(programator);
-        }
         public void addcitizen(citizen citizen)
         {
             citizens.Add(citizen);
         }
+        
 
 
         public void writecitizens()
@@ -42,7 +30,7 @@ namespace mesto
             Console.WriteLine("citizens of" + name1+":");
             foreach (var citizen in citizens)
             {
-                citizen.info();
+                citizen.info
             }
         }
 

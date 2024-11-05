@@ -10,20 +10,10 @@ namespace mesto
         {
 
             city city1 = new city("bratislava");
-            city city2 = new city("zilina");
 
-            
-            
-            city1.addcitizen(new citizen("erika", 37));
-            city1.addcitizen(new citizen("laco", 45));
-            
-
-            city2.addcitizen(new citizen("marek", 36));
-            city2.addcitizen(new citizen("lucia", 65));
-            
-
-            city1.writecitizens();
-            city2.writecitizens();
+            doctor doc = new doctor(name: "igor",age: 34);
+            programator prog = new programator (name: "laco",age: 25 , programlanguage: "C++");
+            seniorprogramator seprog = new seniorprogramator(name: "jozo", age: 41 , numberofprojects:15 , programlanguage: "python");
 
 
             

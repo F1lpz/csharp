@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace mesto
 {
-    internal class doctor : citizen
+    public class doctor : citizen
     {
         
 

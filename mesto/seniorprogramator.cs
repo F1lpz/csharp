@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace mesto
 {
-    internal class seniorprogramator
+    public class seniorprogramator : programator
     {
+        public int numberofprojects;
+
+        public seniorprogramator(string name, int age, string programlanguage, int numberofprojects) : base(name,age,programlanguage)
+        {
+            this.numberofprojects = numberofprojects;
+        }
+
+        public new void displayinfo()
+        {
+            Console.WriteLine(name + "" + age + "programs in:" + programlanguage + "and has:" + numberofprojects + "projects");
+        }
     }
+
 }

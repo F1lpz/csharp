@@ -6,21 +6,20 @@ using System.Threading.Tasks;
 
 namespace mesto
 {
-    internal class programator
+    public class programator : citizen
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
 
 
-        public programator(string name, int age)
+        public string programlanguage;
+        public programator(string name, int age, string programlanguage) : base(name, age)
         {
-            Name = name;
-            Age = age;
+            this.programlanguage = programlanguage;
         }
+       
 
-        public void displayinfo()
+        public override void info()
         {
-            Console.WriteLine("programator named " + Name + "" + Age + "" + "that works on pc");
+            Console.WriteLine("programator named " + name + "" + age + "" + "and he uses");
         }
 
 
