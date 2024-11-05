@@ -10,11 +10,13 @@ namespace mesto
     {
         public string name { get; set; }
         public int age { get; set; }
+        private string programlanguage { get; set; }
 
-        public citizen(string name, int age)
+        public citizen(string name, int age, string programlanguage)
         {
             this.name = name;
             this.age = age;
+            this.programlanguage = programlanguage;
         }
 
         public virtual void info()

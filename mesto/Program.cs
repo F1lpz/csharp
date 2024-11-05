@@ -9,20 +9,24 @@ namespace mesto
         static void Main(string[] args)
         {
 
-            city city1 = new city("bratislava");
-
-            doctor doc = new doctor(name: "igor",age: 34);
-            programator prog = new programator (name: "laco",age: 25 , programlanguage: "C++");
-            seniorprogramator seprog = new seniorprogramator(name: "jozo", age: 41 , numberofprojects:15 , programlanguage: "python");
+            city bratislava = new city("bratislava");
 
 
-            
+            citizen o = generatorofcitizens.generatecitizen();
 
+            bratislava.addcitizen(o);
 
+            bratislava.writecitizens();
 
 
 
-
+            for (int i = 0; i < 31; i++)
+            {
+                citizen o = generatorofcitizens.generatecitizen();
+                bratislava.addcitizen(o);
+            }
+            bratislava.writecitizens();
+            bratislava.generateproglan();
         }
     }
 }
