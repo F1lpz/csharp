@@ -30,7 +30,7 @@ namespace mesto
             Console.WriteLine("citizens of" + name1+":");
             foreach (var citizen in citizens)
             {
-                citizen.info
+                citizen.info();
             }
         }
 
