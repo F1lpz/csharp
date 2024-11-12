@@ -8,5 +8,13 @@ namespace cvicenie_LINQ
 {
     internal class student
     {
+        public string name { get; set; }
+        public int age { get; set; }
+
+        public student(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
     }
 }
