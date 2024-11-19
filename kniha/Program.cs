@@ -15,6 +15,10 @@ public class Program
 
              };
 
+
+        Kniha prvaKnihaOld = knihas[0];
+        Kniha prvaKniha = knihas.First();
+
                 List<Kniha> knihyPreMladez = knihas.Where(kniha => !kniha.PreDospelych).ToList();
                 List<Kniha> knihyOdNajstarsej = knihas.OrderBy(kniha => kniha.ReleaseYear).ToList();
                 List<Kniha> knihyOdNajnovsej = knihas.OrderByDescending(kniha => kniha.ReleaseYear).ToList();
