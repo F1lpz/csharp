@@ -8,9 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="property.cs">
+    <None Update="studenti.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
+    </None>
+    <None Update="studenti_large.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="studenti_large_chyba.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

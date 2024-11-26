@@ -8,6 +8,15 @@ namespace mesto
 {
     public class citizen
     {
+
+        protected string Name;
+        protected int Age;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
         public string name { get; set; }
         public int age { get; set; }
         private string programlanguage { get; set; }
