@@ -1,0 +1,22 @@
+﻿<Window x:Class="piskorky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:piskorky"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="Button_00"  Content="" HorizontalAlignment="Left" Margin="101,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy"  Content="" HorizontalAlignment="Left" Margin="151,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy1"  Content="" HorizontalAlignment="Left" Margin="201,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy2"  Content="" HorizontalAlignment="Left" Margin="101,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy3"  Content="" HorizontalAlignment="Left" Margin="151,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy4"  Content="" HorizontalAlignment="Left" Margin="201,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy5"  Content="" HorizontalAlignment="Left" Margin="101,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy6"  Content="" HorizontalAlignment="Left" Margin="151,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button x:Name="Button_00_Copy7"  Content="" HorizontalAlignment="Left" Margin="201,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <StackPanel/>
+
+    </Grid>
+</Window>
