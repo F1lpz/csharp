@@ -7,15 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="Button_00"  Content="" HorizontalAlignment="Left" Margin="101,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy"  Content="" HorizontalAlignment="Left" Margin="151,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy1"  Content="" HorizontalAlignment="Left" Margin="201,83,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy2"  Content="" HorizontalAlignment="Left" Margin="101,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy3"  Content="" HorizontalAlignment="Left" Margin="151,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy4"  Content="" HorizontalAlignment="Left" Margin="201,133,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy5"  Content="" HorizontalAlignment="Left" Margin="101,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy6"  Content="" HorizontalAlignment="Left" Margin="151,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
-        <Button x:Name="Button_00_Copy7"  Content="" HorizontalAlignment="Left" Margin="201,183,0,0" VerticalAlignment="Top" Height="50" Width="50" Background="#FFA96AF7" Click="Button_00_Click"/>
+        <Button Name="Button0" Content="" HorizontalAlignment="Left" Margin="249,110,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="101" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button1" Content="" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="100" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button2" Content="" HorizontalAlignment="Left" Margin="438,110,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="101" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button3" Content="" HorizontalAlignment="Left" Margin="248,185,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="102" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button4" Content="" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="101" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button5" Content="" HorizontalAlignment="Left" Margin="438,185,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="102" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button6" Content="" HorizontalAlignment="Left" Margin="249,260,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="101" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White" RenderTransformOrigin="0.327,0.641"/>
+        <Button x:Name="Button7" Content="" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="74" Width="100" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+        <Button x:Name="Button8" Content="" HorizontalAlignment="Left" Margin="438,259,0,0" VerticalAlignment="Top" Click="Button0_Click" Height="75" Width="100" Background="White" BorderBrush="Red" FontSize="48" FontFamily="Arial Black" FontWeight="Bold" Foreground="Red" OpacityMask="White"/>
+
         <StackPanel/>
 
     </Grid>
