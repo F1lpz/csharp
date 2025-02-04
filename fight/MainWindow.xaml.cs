@@ -14,11 +14,7 @@ namespace fight
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public class fight
     {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
-    }
-}
+       
+        

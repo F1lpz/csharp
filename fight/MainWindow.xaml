@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="575,162,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.475,0.475"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="135,162,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="488,129,80,88" Source="/images/download (3).jpg" Stretch="Fill"/>
+        <Image Margin="96,125,478,84" Source="/images/download.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>
